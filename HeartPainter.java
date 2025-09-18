@@ -1,0 +1,170 @@
+import org.code.neighborhood.*;
+// HeartPainter creates a painter that paints the heart icon
+public class HeartPainter extends PainterPlus{
+
+  //method to allow the painter to paint the top of the heart
+  public void paintHeartTop(){
+    paint("black");
+    move(); 
+    paint("black");
+    move();
+    paint("black");
+    move(); 
+    paint("black");
+    move(); 
+    paint("black");
+    move(); 
+    paint("black");
+    move(); 
+  }
+
+  //method to paint the right side of the Heart
+  public void paintHeartSide(){
+    paint("black");
+    move();
+    paint("black");
+    move();
+    paint("black");
+    move();
+    paint("black");
+    move();
+    paint("black");
+    move();
+    paint("black");
+    move();
+  }
+
+  //method to paint the single units of the right side of the heart
+  public void paintSide(){
+    turnRight();
+    move();
+    paint("black");
+    move();
+    turnLeft();
+    move();
+    paint("black");
+   move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+  }
+public void paintLeftSide(){
+  turnRight();
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+  move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+   move();
+  turnLeft();
+  move();
+  paint("black");
+  move();
+  turnRight();
+  move();
+  paint("black");
+}
+  public void paintTopMiddle(){
+    turnRight();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    turnRight();
+    move();
+    paint("black");
+    turnLeft();
+    move();
+    paint("black");
+    move();
+    paint("black");
+    move();
+    turnLeft();
+    move();
+    paint("black");
+  }
+  //allows the painter to move 5 times
+  public void moveQuick(){
+    move();
+    move();
+    move();
+    move();
+    move();
+  }
+}
